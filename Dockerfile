@@ -106,4 +106,4 @@ RUN mkdir /zan \
 
 CMD ["/sbin/my_init"]
 
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /resources
